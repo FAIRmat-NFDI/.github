@@ -7,7 +7,7 @@ Here you can find a set of repositories with diverse content related to FAIR dat
 - :diamond_shape_with_a_dot_inside: Area A (Synthesis Methods) 
 - :microscope: Area B (Characterization Methods)
 - :computer: Area C (Computational Materials Science)
-- :wrench: Area D (Date infrastructure)
+- :wrench: Area D (Data infrastructure)
 - :battery: Area E (Use case demonstrators) 
 - :rocket: Area F (Outreach)
 - :book: Area G (Administration)
