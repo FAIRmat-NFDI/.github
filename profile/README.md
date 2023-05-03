@@ -1,5 +1,5 @@
 # FAIRmat 
-<img width="700" alt="image" src=https://user-images.githubusercontent.com/64071335/186448118-a2ffca84-9b24-4ece-804b-203622d7033d.png>
+<img width="700" alt="image" src=https://user-images.githubusercontent.com/56445891/235843190-03a605e2-febb-4b42-ba08-55184e4bd745.png>
 
 This is a collection of repositories of the work related in [FAIRmat](https://www.fairmat-nfdi.eu/).
 
@@ -15,6 +15,7 @@ Here you can find a set of repositories with diverse content related to FAIR dat
 ## Links 
 
 - [FAIRmat](https://www.fairmat-nfdi.eu/)  
-  [<img width="150" alt="image" src="https://user-images.githubusercontent.com/64071335/186441964-46315496-60c0-4024-a5dd-ba925deef512.png"> ](https://www.fairmat-nfdi.eu/) 
+  [<img width="150" alt="image" src="https://user-images.githubusercontent.com/56445891/235843008-23528427-7722-4a71-9617-1f90892b7c02.png"> ](https://www.fairmat-nfdi.eu/) 
 - [NOMAD, the main software powering FAIRmat](https://nomad-lab.eu/)  
-  [<img width="280" alt="image" src="https://user-images.githubusercontent.com/64071335/186446332-cbc0339a-b782-4e7a-ab43-ef4949f5cef2.png">](https://nomad-lab.eu/)
+  [<img width="280" alt="image" src="https://user-images.githubusercontent.com/56445891/235843112-f452729f-634b-4192-9f63-8ed95afeea3e.png">](https://nomad-lab.eu/)
+
