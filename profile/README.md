@@ -1,7 +1,6 @@
 
-<p align="center">
-  <img width="700" alt="image" src="https://user-images.githubusercontent.com/56445891/235843190-03a605e2-febb-4b42-ba08-55184e4bd745.png">
-</p>
+![FAIRmat Banner](https://github.com/FAIRmat-NFDI/.github/assets/64071335/0625f13f-18ec-47ff-a5ed-f52f0110d553)
+
 
 # FAIRmat
 [![Discord](https://img.shields.io/badge/Discord-Join%20us-navy)](https://discord.gg/su9Vy2am9W)
