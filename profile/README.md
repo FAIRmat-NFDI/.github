@@ -12,7 +12,7 @@ We develop software to support the FAIR principles in the field of condensed-mat
 
 | FAIRmat | NOMAD 🏜️ | NOMAD Oasis 🌴 | NOMAD CAMELS 🐪 |
 |:---:|:---:|:---:|:---:|
-| [🌐](https://www.fairmat-nfdi.eu/) [📰](https://doi.org/10.1038/s41586-022-04501-x)| [🌐](https://nomad-lab.eu/nomad-lab/) [💻]([#](https://nomad-lab.eu/prod/v1/staging/gui/about/information#iss=https%3A%2F%2Fnomad-lab.eu%2Ffairdi%2Fkeycloak%2Fauth%2Frealms%2Ffairdi_nomad_prod)) [📚](https://nomad-lab.eu/prod/v1/staging/docs/index.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-oasis.html) [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/oasis/install.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-camels.html) [💻](https://github.com/FAU-LAP/NOMAD-CAMELS) [📚](https://fau-lap.github.io/NOMAD-CAMELS/index.html) [📰](https://arxiv.org/pdf/2402.07548.pdf)|
+| [🌐](https://www.fairmat-nfdi.eu/) [📰](https://doi.org/10.1038/s41586-022-04501-x)| [🌐](https://nomad-lab.eu/nomad-lab/) [💻]([#](https://nomad-lab.eu/prod/v1/staging/gui/about/information#iss=https%3A%2F%2Fnomad-lab.eu%2Ffairdi%2Fkeycloak%2Fauth%2Frealms%2Ffairdi_nomad_prod)) [📚](https://nomad-lab.eu/prod/v1/staging/docs/index.html) [📰](https://joss.theoj.org/papers/10.21105/joss.05388)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-oasis.html) [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/oasis/install.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-camels.html) [💻](https://github.com/FAU-LAP/NOMAD-CAMELS) [📚](https://fau-lap.github.io/NOMAD-CAMELS/index.html) [📰](https://arxiv.org/pdf/2402.07548.pdf)|
 | The NFDI consortium. | The main software. | Your local resource. | Control your lab instruments. |
 
 </center>
