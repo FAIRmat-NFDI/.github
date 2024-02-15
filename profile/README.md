@@ -12,7 +12,7 @@ We develop software to support the FAIR principles in the field of condensed-mat
 
 | FAIRmat | NOMAD 🏜️ | NOMAD Oasis 🌴 | NOMAD CAMELS 🐪 |
 |:---:|:---:|:---:|:---:|
-| [🌐](https://www.fairmat-nfdi.eu/) | [🌐](https://nomad-lab.eu/nomad-lab/) [💻]([#](https://nomad-lab.eu/prod/v1/staging/gui/about/information#iss=https%3A%2F%2Fnomad-lab.eu%2Ffairdi%2Fkeycloak%2Fauth%2Frealms%2Ffairdi_nomad_prod)) [📚](https://nomad-lab.eu/prod/v1/staging/docs/index.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-oasis.html) [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/oasis/install.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-camels.html) [💻](https://github.com/FAU-LAP/NOMAD-CAMELS) [📚](https://fau-lap.github.io/NOMAD-CAMELS/index.html)|
+| [🌐](https://www.fairmat-nfdi.eu/) [📰](https://doi.org/10.1038/s41586-022-04501-x)| [🌐](https://nomad-lab.eu/nomad-lab/) [💻]([#](https://nomad-lab.eu/prod/v1/staging/gui/about/information#iss=https%3A%2F%2Fnomad-lab.eu%2Ffairdi%2Fkeycloak%2Fauth%2Frealms%2Ffairdi_nomad_prod)) [📚](https://nomad-lab.eu/prod/v1/staging/docs/index.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-oasis.html) [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/oasis/install.html)| [🌐](https://nomad-lab.eu/nomad-lab/nomad-camels.html) [💻](https://github.com/FAU-LAP/NOMAD-CAMELS) [📚](https://fau-lap.github.io/NOMAD-CAMELS/index.html) [📰](https://arxiv.org/pdf/2402.07548.pdf)|
 | The NFDI consortium. | The main software. | Your local resource. | Control your lab instruments. |
 
 </center>
@@ -27,9 +27,9 @@ A collection of repositories that are part of the FAIRmat consortium.
 This is the main software that powers the infrastructure and our central deployment. It's a platform for sharing, storing, and analyzing materials data. You can install your own [NOMAD Oasis 🌴](https://nomad-lab.eu/nomad-lab/nomad-oasis.html) and customize it to meet your needs, including features to define your ELNs, custom schemas, parsers, and cloud-based analysis tools (NORTH).
 
 
-| Repository Name | Description                        | Docs                             |
-|-----------------|------------------------------------|:----:|
-| [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) |
+| Repository  | Description                        | Docs                             | Publications |
+|-----------------|------------------------------------|:----:|:----:|
+| [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
 
 ## NOMAD Computational Parsers
 
@@ -37,16 +37,18 @@ A collection of parsers for various computational codes. These parsers are used 
 
 | Repository  | Description                                                                            | Docs |
 |-----------------|----------------------------------------------------------------------------------------|:----:|
-| [electronic-parsers](https://github.com/nomad-coe/electronic-parsers) | A collection of the NOMAD parsers for (~40) electronic codes.                         |               |
-| [atomistic-parsers](https://github.com/nomad-coe/atomistic-parsers) | A collection of NOMAD parsers for atomistic codes (GROMACS, LAMMPS, ...).             |               |
-| [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |               |
+| [electronic-parsers](https://github.com/nomad-coe/electronic-parsers) | A collection of the NOMAD parsers for (~40) electronic codes.                         |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
+| [atomistic-parsers](https://github.com/nomad-coe/atomistic-parsers) | A collection of NOMAD parsers for atomistic codes (GROMACS, LAMMPS, ...).             |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
+| [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
 
 ## NOMAD Plugins for Experiments
 
+A collection of plugins for experimental data, including material processing and measurements. These plugins contain schemas, ELNs and parsers for experimental data.
+
 | Repository  | Description                                                                            | Docs |
 |-----------------|----------------------------------------------------------------------------------------|:----:|
-| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A plugin with base sections for material processing.                         |               |
-| [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            |               |
+| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |               |
+| [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              |
 
 ## NeXus-Related Resources
 
@@ -56,4 +58,4 @@ We extend the [NeXus format](https://www.nexusformat.org/) to support the FAIR p
 |-----------------|-------------|:----:|:----:|
 | [pynxtools](https://github.com/FAIRmat-NFDI/pynxtools) | Tool to develop ontologies and to create ontological instances based on the [NeXus format](https://www.nexusformat.org/). | [📚](https://fairmat-nfdi.github.io/pynxtools/) | [📦](https://pypi.org/project/your-package/) |
 | [nyaml](https://github.com/FAIRmat-NFDI/nyaml) | A tool for converting NeXus application definitions from YAML (nyaml) to the Nexus Definitions Language (nxdl) format and vice-versa. | | [📦](https://pypi.org/project/nyaml/) |
-
+| [nexus-definitions](https://github.com/FAIRmat-NFDI/nexus-definitions) | NeXus definitions including all the current FAIRmat contributions. | [📚](https://fairmat-nfdi.github.io/nexus_definitions/) |  |
