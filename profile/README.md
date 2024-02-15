@@ -1,5 +1,5 @@
 
-![FAIRmat Banner](https://github.com/FAIRmat-NFDI/.github/assets/64071335/0625f13f-18ec-47ff-a5ed-f52f0110d553)
+![FAIRmat Banner](https://github.com/FAIRmat-NFDI/.github/assets/64071335/705d779e-684d-4e3c-843e-4916f3344de1)
 
 
 # FAIRmat
