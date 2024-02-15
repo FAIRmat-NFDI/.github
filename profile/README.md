@@ -3,7 +3,7 @@
 
 
 # FAIRmat
-[![Discord](https://img.shields.io/badge/Discord-Join%20us-navy)](https://discord.gg/su9Vy2am9W)
+[![Discord](https://img.shields.io/badge/Join%20our%20Discord-%235865F2.svg?style=&logo=discord&logoColor=white)](https://discord.gg/su9Vy2am9W)
 
 We develop software to support the FAIR principles in the field of condensed-matter physics, the chemical physics of solids and materials science in general. The FAIR principles are a set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable. The FAIRmat consortium is part of the National Research Data Infrastructure ([NFDI](https://www.nfdi.de/?lang=en)) and is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation | project 460197019).
 
