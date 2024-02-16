@@ -31,16 +31,63 @@ This is the main software that powers the infrastructure and our central deploym
 | Repository  | Description                        | Docs                             | Publications |
 |-----------------|------------------------------------|:----:|:----:|
 | [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
+| [nomad-schema-plugin-example](https://github.com/nomad-coe/nomad-schema-plugin-example) | An example for developing schema plugins. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/basics.html) |  |
+| [nomad-parser-plugin-example](https://github.com/nomad-coe/nomad-parser-example) | An example for developing parser plugins. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/parsers.html) |  |
+| [nomad-normalizer-plugin-example](https://github.com/nomad-coe/nomad-normalizer-plugin-example) | An example for developing normalizer plugins. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/customization/normalizers.html) |  |
 
-## NOMAD Computational Parsers
+## NOMAD for Computation
 
+### Parsers
 A collection of parsers for various computational codes. These parsers are used to extract metadata from the output files of the codes and to store the metadata in the NOMAD Archive making the data findable, accessible, interoperable, and reusable (FAIR). Check out the full list of [supported codes](https://nomad-lab.eu/prod/v1/staging/docs/reference/parsers.html).
 
 | Repository  | Description                                                                            | Docs |
 |-----------------|----------------------------------------------------------------------------------------|:----:|
 | [electronic-parsers](https://github.com/nomad-coe/electronic-parsers) | A collection of the NOMAD parsers for (~40) electronic codes.                         |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
-| [atomistic-parsers](https://github.com/nomad-coe/atomistic-parsers) | A collection of NOMAD parsers for atomistic codes (GROMACS, LAMMPS, ...).             |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
-| [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
+| [atomistic-parsers](https://github.com/nomad-coe/atomistic-parsers) | A collection of NOMAD parsers for atomistic codes (GROMACS, LAMMPS, H5MD, ...).             |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
+| [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/) |
+
+### Parser Plugins
+A collection of parser plugins for various computational codes. All computational parsers will eventually be migrated to plugins here.
+
+| Repository  | Description                                                                            | Docs |
+|-----------------|----------------------------------------------------------------------------------------|:----:|
+| [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/) |
+| [simulation-parsers](https://github.com/nomad-coe/simulation-parsers) | Container for all simulation NOMAD plugins.                        |             |
+| [molpro](https://github.com/nomad-coe/nomad-parser-molpro-plugin) | Standalone NOMAD plugin for parsing MOLPRO calculation files.                        |             |
+| [msspec](https://github.com/nomad-coe/nomad-parser-plugin-msspec) | Standalone NOMAD plugin for parsing MsSpec calculation files.            |              |
+| [abacus](https://github.com/nomad-coe/nomad-parser-plugin-abacus) | Standalone NOMAD plugin for parsing Abacus calculation files.            |              |
+
+### Schemas Plugins
+
+A collection of schemas used for storing computational data in the NOMAD repository.
+
+| Repository  | Description                                                                            | Docs |
+|-----------------|----------------------------------------------------------------------------------------|:----:|
+| [simulation-data](https://github.com/nomad-coe/nomad-schema-plugin-simulation-data) | Schema plugin for storing simulation data within the "data" section of a NOMAD archive (under beta development).                         |               |
+| [simulation-run](https://github.com/nomad-coe/nomad-schema-plugin-run) | Schema plugin for storing simulation data within the "run" section of the NOMAD archive.             |    |
+| [simulation-workflow](https://github.com/nomad-coe/nomad-schema-plugin-simulation-workflow) | Schema plugin for storing workflows within the NOMAD archive. |  |
+
+### Normalizer Plugins
+
+A collection of normalizers used for normalizing computational data in the NOMAD repository.
+
+| Repository  | Description                                                                            | Docs |
+|-----------------|----------------------------------------------------------------------------------------|:----:|
+| [simulation-system-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-system) | This is the normalizer for system section in NOMAD. | |
+| [simulation-workflow-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-simulation-workflow) | This is the normalizer for simulation workflows in NOMAD. | |
+| [dos-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-dos) | This is the normalizer for calculating the density of states (dos) in NOMAD. | |
+| [bandstructure-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-bandstructure) | This is the normalizer for calculating the bandstructure in NOMAD. | |
+| [spectra-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-spectra) | This is the normalizer for calculating spectra in NOMAD. | |
+| [soap-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-soap) | Normalizer that calculates the soap representation for atomic systems.
+| [atomic-descriptors-normalizer-plugin](https://github.com/nomad-coe/nomad-normalizer-plugin-atomic-descriptors) | Normalizer that calculates various atomic descriptors.             |  |
+
+### Tools
+
+A collection of tools (typically external to NOMAD) that facilitate FAIR data management in the context of computation, usually complementing the features of NOMAD in some way.
+
+| Repository  | Description                                                                            | Docs |
+|-----------------|----------------------------------------------------------------------------------------|:----:|
+| [greenX](https://github.com/nomad-coe/greenX) | Library for Green’s function based electronic structure theory calculations. | |
 
 ## NOMAD Plugins for Experiments
 
