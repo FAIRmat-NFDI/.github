@@ -38,9 +38,9 @@ A collection of plugins for computational data. These plugins contain schemas an
 
 ### New plugins
 
-| Repository | Description | Docs |
-| ---------- | ----------- | ---- |
-| [nomad-simulations](https://github.com/nomad-coe/nomad-simulations) | A NOMAD plugin containing base sections for simulations.  | [📚](https://nomad-coe.github.io/nomad-simulations/) |
+| Repository | Description | Docs | PyPI |
+| ---------- | ----------- | ---- | ---- |
+| [nomad-simulations](https://github.com/nomad-coe/nomad-simulations) | A NOMAD plugin containing base sections for simulations.  | [📚](https://nomad-coe.github.io/nomad-simulations/) | [📦](https://pypi.org/project/nomad-simulations/)
 | [nomad-schema-plugin-simulation-workflow](https://github.com/nomad-coe/nomad-schema-plugin-simulation-workflow) | A collection of schemas for various types of simulation workflows. |  |
 
 <details>
@@ -80,10 +80,10 @@ A collection of plugins for computational data. These plugins contain schemas an
 
 A collection of plugins for experimental data, including material processing and measurements. These plugins contain schemas, ELNs and parsers for experimental data.
 
-| Repository  | Description                                                                            | Docs |
-|-----------------|----------------------------------------------------------------------------------------|:----:|
-| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |               |
-| [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              |
+| Repository  | Description                                                                            | Docs | PyPI |
+|-----------------|----------------------------------------------------------------------------------------|:----:| --- |
+| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |               | [📦](https://pypi.org/project/nomad-material-processing/)
+| [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              | [📦](https://pypi.org/project/nomad-measurements/)
 
 
 ## NeXus-Related Resources
