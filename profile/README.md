@@ -32,9 +32,40 @@ This is the main software that powers the infrastructure and our central deploym
 |-----------------|------------------------------------|:----:|:----:|
 | [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
 
-## NOMAD Computational Parsers
+## NOMAD Computational Plugins
 
-A collection of parsers for various computational codes. These parsers are used to extract metadata from the output files of the codes and to store the metadata in the NOMAD Archive making the data findable, accessible, interoperable, and reusable (FAIR). Check out the full list of [supported codes](https://nomad-lab.eu/prod/v1/staging/docs/reference/parsers.html).
+A collection of plugins for computational data. These plugins contain schemas and parsers for computational data. Note: the current schema and parser structure is being refactored and we have two versions currently living in our repositories: the _new_ plugins and the _legacy_ plugins. Check out the full list of [supported codes](https://nomad-lab.eu/prod/v1/staging/docs/reference/parsers.html).
+
+### New plugins
+
+| Repository | Description | Docs |
+| ---------- | ----------- | ---- |
+| [nomad-simulations](https://github.com/nomad-coe/nomad-simulations) | A NOMAD plugin containing base sections for simulations.  | [📚](https://nomad-coe.github.io/nomad-simulations/) |
+| [nomad-schema-plugin-simulation-workflow](https://github.com/nomad-coe/nomad-schema-plugin-simulation-workflow) | A collection of schemas for various types of simulation workflows. |  |
+
+<details>
+<summary> <b>Parser plugins</b> </summary>
+
+| Repository | Description | Docs |
+| ---------- | ----------- | ---- |
+| [nomad-parser-vasp](https://github.com/FAIRmat-NFDI/nomad-parser-vasp) | NOMAD parser plugin for VASP input/output files. |  |
+| [nomad-parser-fhiaims](https://github.com/FAIRmat-NFDI/nomad-parser-fhiaims) | NOMAD parser plugin for FHI-aims input/output files. |  |
+| [nomad-parser-wannier90](https://github.com/FAIRmat-NFDI/nomad-parser-wannier90) | NOMAD parser plugin for Wannier90 input/output files. |  |
+| [nomad-parser-yambo](https://github.com/FAIRmat-NFDI/nomad-parser-yambo) | NOMAD parser plugin for YAMBO input/output files. |  |
+
+</details>
+
+### Legacy plugins
+
+
+| Repository | Description | Docs |
+| ---------- | ----------- | ---- |
+| [nomad-schema-plugin-run](https://github.com/nomad-coe/nomad-schema-plugin-run) | Schema definition for run section in NOMAD. |  |
+| [nomad-schema-plugin-simulation-workflow](https://github.com/nomad-coe/nomad-schema-plugin-simulation-workflow) | A collection of schemas for various types of simulation workflows. |  |
+
+
+<details>
+<summary> <b>Parser plugins</b> </summary>
 
 | Repository  | Description                                                                            | Docs |
 |-----------------|----------------------------------------------------------------------------------------|:----:|
@@ -42,7 +73,10 @@ A collection of parsers for various computational codes. These parsers are used 
 | [atomistic-parsers](https://github.com/nomad-coe/atomistic-parsers) | A collection of NOMAD parsers for atomistic codes (GROMACS, LAMMPS, ...).             |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
 | [workflow-parsers](https://github.com/nomad-coe/workflow-parsers) | A collection of NOMAD parsers for codes with computational workflows (FHI-vibes, LOBSTER, QuantumEspresso Family, ...). |[📚](https://fairmat-nfdi.github.io/AreaC-DOC/)               |
 
-## NOMAD Plugins for Experiments
+</details>
+
+
+## NOMAD Experimental Plugins
 
 A collection of plugins for experimental data, including material processing and measurements. These plugins contain schemas, ELNs and parsers for experimental data.
 
@@ -50,6 +84,7 @@ A collection of plugins for experimental data, including material processing and
 |-----------------|----------------------------------------------------------------------------------------|:----:|
 | [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |               |
 | [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              |
+
 
 ## NeXus-Related Resources
 
