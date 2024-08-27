@@ -52,7 +52,7 @@ A collection of plugins for computational data. These plugins contain schemas an
 | [nomad-parser-fhiaims](https://github.com/FAIRmat-NFDI/nomad-parser-fhiaims) | NOMAD parser plugin for FHI-aims input/output files. |  |
 | [nomad-parser-wannier90](https://github.com/FAIRmat-NFDI/nomad-parser-wannier90) | NOMAD parser plugin for Wannier90 input/output files. |  |
 | [nomad-parser-yambo](https://github.com/FAIRmat-NFDI/nomad-parser-yambo) | NOMAD parser plugin for YAMBO input/output files. |  |
-| [nomad-parser.w2dynamics](https://github.com/FAIRmat-NFDI/nomad-parser-w2dynamics) | NOMAD parser plugin for w2dynamics input/output files. |  |
+| [nomad-parser-w2dynamics](https://github.com/FAIRmat-NFDI/nomad-parser-w2dynamics) | NOMAD parser plugin for w2dynamics input/output files. |  |
 
 </details>
 
