@@ -83,7 +83,7 @@ A collection of plugins for experimental data, including material processing and
 
 | Repository  | Description                                                                            | Docs | PyPI |
 |-----------------|----------------------------------------------------------------------------------------|:----:| --- |
-| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |               | [📦](https://pypi.org/project/nomad-material-processing/)
+| [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |          [📚](https://fairmat-nfdi.github.io/nomad-material-processing/)     | [📦](https://pypi.org/project/nomad-material-processing/)
 | [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              | [📦](https://pypi.org/project/nomad-measurements/)
 
 
