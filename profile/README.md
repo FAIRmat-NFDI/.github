@@ -94,5 +94,5 @@ We extend the [NeXus format](https://www.nexusformat.org/) to support the FAIR p
 | Repository  | Description | Docs | PyPI |
 |-----------------|-------------|:----:|:----:|
 | [pynxtools](https://github.com/FAIRmat-NFDI/pynxtools) | Tool to develop ontologies and to create ontological instances based on the [NeXus format](https://www.nexusformat.org/). | [📚](https://fairmat-nfdi.github.io/pynxtools/) | [📦](https://pypi.org/project/pynxtools/) |
-| [nyaml](https://github.com/FAIRmat-NFDI/nyaml) | A tool for converting NeXus application definitions from YAML (nyaml) to the Nexus Definitions Language (nxdl) format and vice-versa. | | [📦](https://pypi.org/project/nyaml/) |
+| [nyaml](https://github.com/FAIRmat-NFDI/nyaml) | A tool for converting NeXus application definitions from YAML (nyaml) to the Nexus Definitions Language (nxdl) format and vice-versa. | [📚](https://fairmat-nfdi.github.io/nyaml/)| [📦](https://pypi.org/project/nyaml/) |
 | [nexus-definitions](https://github.com/FAIRmat-NFDI/nexus_definitions) | NeXus definitions including all the current FAIRmat contributions. | [📚](https://fairmat-nfdi.github.io/nexus_definitions/) |  |
