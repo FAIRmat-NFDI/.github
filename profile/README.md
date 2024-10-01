@@ -102,7 +102,7 @@ We extend the [NeXus format](https://www.nexusformat.org/) to support the FAIR p
 
 | Repository  | Description | Docs | PyPI |
 |-----------------|-------------|:----:|:----:|
-| [pynxtools-apm](hhttps://github.com/FAIRmat-NFDI/pynxtools-apm/) | pynxtools reader plugin for atom probe microscopy (APM) as well as related field ion microscopy (FIM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-apm/) | [📦](https://pypi.org/project/pynxtools-apm/) |
+| [pynxtools-apm](https://github.com/FAIRmat-NFDI/pynxtools-apm/) | pynxtools reader plugin for atom probe microscopy (APM) as well as related field ion microscopy (FIM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-apm/) | [📦](https://pypi.org/project/pynxtools-apm/) |
 | [pynxtools-ellips](https://github.com/FAIRmat-NFDI/pynxtools-ellips/) | pynxtools reader plugin for ellipsometry data. | [📚](https://fairmat-nfdi.github.io/pynxtools-ellips/) | [📦](https://pypi.org/project/pynxtools-ellips/) |
 | [pynxtools-em](https://github.com/FAIRmat-NFDI/pynxtools-em/) | pynxtools reader plugin for electron microscopy (EM) data from various vendors/sources. | [📚](https://fairmat-nfdi.github.io/pynxtools-em/) | [📦](https://pypi.org/project/pynxtools-em/) |
 | [pynxtools-mpes](https://github.com/FAIRmat-NFDI/pynxtools-mpes/) | pynxtools reader plugin for multi-dimensional photoelectron spectroscopy (MPES) data. | | [📦](https://pypi.org/project/pynxtools-mpes/) |
