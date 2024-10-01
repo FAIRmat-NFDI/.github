@@ -100,6 +100,8 @@ We extend the [NeXus format](https://www.nexusformat.org/) to support the FAIR p
 <details>
 <summary> <b>Reader plugins for pynxtools</b> </summary>
 
+There are a number of plugins available for `pynxtools`. These are extensions of `pynxtools` used for reading data of specific experimental techniques.
+
 | Repository  | Description | Docs | PyPI |
 |-----------------|-------------|:----:|:----:|
 | [pynxtools-apm](https://github.com/FAIRmat-NFDI/pynxtools-apm/) | pynxtools reader plugin for atom probe microscopy (APM) as well as related field ion microscopy (FIM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-apm/) | [📦](https://pypi.org/project/pynxtools-apm/) |
