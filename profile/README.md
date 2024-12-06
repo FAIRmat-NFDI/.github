@@ -40,7 +40,7 @@ These are template repositories that you can use as a base when cusomizing your 
 | ---------- | ----------- | :--: |
 | [nomad-plugin-template](https://github.com/FAIRmat-NFDI/nomad-plugin-template) | A template repository for creating a plugin. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/tutorial/develop_plugin.html) |
 | [nomad-distro-template](https://github.com/FAIRmat-NFDI/nomad-distro-template)| A template repository for creating a custom NOMAD Oasis image. | |
-| [nomad-distro-dev](https://github.com/FAIRmat-NFDI/nomad-distro-dev) | A repository you can fork and use for developing NOMAD. | |
+| [nomad-distro-dev](https://github.com/FAIRmat-NFDI/nomad-distro-dev) | A repository you can fork and use for developing NOMAD. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/howto/develop/setup.html#nomad-distro-dev-development-environment-for-the-core-nomad-package-and-nomad-plugins) |
 
 ## NOMAD Computational Plugins
 
