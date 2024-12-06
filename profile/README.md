@@ -32,6 +32,16 @@ This is the main software that powers the infrastructure and our central deploym
 |-----------------|------------------------------------|:----:|:----:|
 | [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
 
+## Templates
+
+These are template repositories that you can use as a base when cusomizing your own NOMAD installation for what you need in your institute or lab.
+
+| Repository | Description | Docs |
+| ---------- | ----------- | :--: |
+| [nomad-plugin-template](https://github.com/FAIRmat-NFDI/nomad-plugin-template) | A template repository for creating a plugin. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/tutorial/develop_plugin.html) |
+| [nomad-distro-template](https://github.com/FAIRmat-NFDI/nomad-distro-template)| A template repository for creating a custom NOMAD Oasis image. | |
+| [nomad-distro-dev](https://github.com/FAIRmat-NFDI/nomad-distro-dev) | A repository you can fork and use for developing NOMAD. | |
+
 ## NOMAD Computational Plugins
 
 A collection of plugins for computational data. These plugins contain schemas and parsers for computational data. Note: the current schema and parser structure is being refactored and we have two versions currently living in our repositories: the _new_ plugins and the _legacy_ plugins. Check out the full list of [supported codes](https://nomad-lab.eu/prod/v1/staging/docs/reference/parsers.html).
