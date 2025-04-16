@@ -32,6 +32,15 @@ This is the main software that powers the infrastructure and our central deploym
 |-----------------|------------------------------------|:----:|:----:|
 | [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
 
+## NOMAD Docs
+
+This repository hosts all official documentation for the NOMAD platform — including user guides, developer docs, and API references. It supports both users and developers working with NOMAD and NOMAD Oasis.
+
+| Repository  | Description                        | Docs                             |
+|--------------------|------------------------------------|:----:|
+| [nomad-docs](https://github.com/fairmat-nfdi/nomad-docs) | Documentation for the NOMAD platform. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) |
+
+
 ## Templates
 
 These are template repositories that you can use as a base when cusomizing your own NOMAD installation for what you need in your institute or lab.
