@@ -30,7 +30,7 @@ This is the main software that powers the infrastructure and our central deploym
 
 | Repository  | Description                        | Docs                             | Publications |
 |-----------------|------------------------------------|:----:|:----:|
-| [nomad](https://github.com/nomad-coe/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
+| [nomad](https://github.com/FAIRmat-NFDI/nomad) | The main NOMAD repository. | [📚](https://nomad-lab.eu/prod/v1/staging/docs/) | [📰](https://joss.theoj.org/papers/10.21105/joss.05388) |
 
 ## NOMAD Docs
 
