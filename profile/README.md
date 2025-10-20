@@ -129,8 +129,8 @@ There are a number of plugins available for `pynxtools`. These are extensions of
 | [pynxtools-igor](https://github.com/FAIRmat-NFDI/pynxtools-igor/) | pynxtools reader plugin for Wavemetrics Igor Pro data. | [📚](https://fairmat-nfdi.github.io/pynxtools-igor/) | [📦](https://pypi.org/project/pynxtools-igor/) |
 | [pynxtools-mpes](https://github.com/FAIRmat-NFDI/pynxtools-mpes/) | pynxtools reader plugin for multi-dimensional photoelectron spectroscopy (MPES) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-mpes/) | [📦](https://pypi.org/project/pynxtools-mpes/) |
 | [pynxtools-raman](https://github.com/FAIRmat-NFDI/pynxtools-raman/) | pynxtools reader plugin for Raman data. | [📚](https://fairmat-nfdi.github.io/pynxtools-raman/) | [📦](https://pypi.org/project/pynxtools-raman/) |
-| [pynxtools-spm](https://github.com/FAIRmat-NFDI/pynxtools-spm/) | pynxtools reader plugin for scanning probe microscopy (SPM) data. | | [📦](https://pypi.org/project/pynxtools-spm/) |
+| [pynxtools-spm](https://github.com/FAIRmat-NFDI/pynxtools-spm/) | pynxtools reader plugin for scanning probe microscopy (SPM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-spm/) | [📦](https://pypi.org/project/pynxtools-spm/) |
 | [pynxtools-xps](https://github.com/FAIRmat-NFDI/pynxtools-xps/) | pynxtools reader plugin for X-ray photoelectron spectroscopy (XPS) data from various vendors/sources. | [📚](https://fairmat-nfdi.github.io/pynxtools-xps/) | [📦](https://pypi.org/project/pynxtools-xps/) |
-| [pynxtools-xrd](https://github.com/FAIRmat-NFDI/pynxtools-xrd/) | pynxtools reader plugin for X-ray diffraction data. | | [📦](https://pypi.org/project/pynxtools-xrd/) |
+| [pynxtools-xrd](https://github.com/FAIRmat-NFDI/pynxtools-xrd/) | pynxtools reader plugin for X-ray diffraction data. | [📚](https://fairmat-nfdi.github.io/pynxtools-xrd/) | [📦](https://pypi.org/project/pynxtools-xrd/) |
 
 </details>
