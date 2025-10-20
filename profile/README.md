@@ -112,8 +112,8 @@ We extend the [NeXus format](https://www.nexusformat.org/) to support the FAIR p
 
 | Repository  | Description | Docs | PyPI |
 |-----------------|-------------|:----:|:----:|
-| [pynxtools](https://github.com/FAIRmat-NFDI/pynxtools) | Tool to develop ontologies and to create ontological instances based on the [NeXus format](https://www.nexusformat.org/). | [📚](https://fairmat-nfdi.github.io/pynxtools/) | [📦](https://pypi.org/project/pynxtools/) |
-| [nyaml](https://github.com/FAIRmat-NFDI/nyaml) | A tool for converting NeXus application definitions from YAML (nyaml) to the Nexus Definitions Language (nxdl) format and vice-versa. | [📚](https://fairmat-nfdi.github.io/nyaml/)| [📦](https://pypi.org/project/nyaml/) |
+| [pynxtools](https://github.com/FAIRmat-NFDI/pynxtools) | Standalone tool and NOMAD plugin for data conversion and validation in the [NeXus format](https://www.nexusformat.org/). | [📚](https://fairmat-nfdi.github.io/pynxtools/) | [📦](https://pypi.org/project/pynxtools/) |
+| [nyaml](https://github.com/FAIRmat-NFDI/nyaml) | A tool for converting NeXus application definitions in the Nexus Definitions Language (NXDL) from YAML (nyaml) to the XML and vice-versa. | [📚](https://fairmat-nfdi.github.io/nyaml/)| [📦](https://pypi.org/project/nyaml/) |
 | [nexus-definitions](https://github.com/FAIRmat-NFDI/nexus_definitions) | NeXus definitions including all the current FAIRmat contributions. | [📚](https://fairmat-nfdi.github.io/nexus_definitions/) |  |
 
 <details>
@@ -126,10 +126,11 @@ There are a number of plugins available for `pynxtools`. These are extensions of
 | [pynxtools-apm](https://github.com/FAIRmat-NFDI/pynxtools-apm/) | pynxtools reader plugin for atom probe microscopy (APM) as well as related field ion microscopy (FIM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-apm/) | [📦](https://pypi.org/project/pynxtools-apm/) |
 | [pynxtools-ellips](https://github.com/FAIRmat-NFDI/pynxtools-ellips/) | pynxtools reader plugin for ellipsometry data. | [📚](https://fairmat-nfdi.github.io/pynxtools-ellips/) | [📦](https://pypi.org/project/pynxtools-ellips/) |
 | [pynxtools-em](https://github.com/FAIRmat-NFDI/pynxtools-em/) | pynxtools reader plugin for electron microscopy (EM) data from various vendors/sources. | [📚](https://fairmat-nfdi.github.io/pynxtools-em/) | [📦](https://pypi.org/project/pynxtools-em/) |
-| [pynxtools-mpes](https://github.com/FAIRmat-NFDI/pynxtools-mpes/) | pynxtools reader plugin for multi-dimensional photoelectron spectroscopy (MPES) data. | | [📦](https://pypi.org/project/pynxtools-mpes/) |
-| [pynxtools-raman](https://github.com/FAIRmat-NFDI/pynxtools-raman/) | pynxtools reader plugin for Raman data. | | [📦](https://pypi.org/project/pynxtools-raman/) |
-| [pynxtools-stm](https://github.com/FAIRmat-NFDI/pynxtools-stm/) | pynxtools reader plugin for scanning tunneling microscopy (SPM) and spectroscopy (STS) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-stm/) | [📦](https://pypi.org/project/pynxtools-stm/) |
+| [pynxtools-igor](https://github.com/FAIRmat-NFDI/pynxtools-igor/) | pynxtools reader plugin for Wavemetrics Igor Pro data. | [📚](https://fairmat-nfdi.github.io/pynxtools-igor/) | [📦](https://pypi.org/project/pynxtools-igor/) |
+| [pynxtools-mpes](https://github.com/FAIRmat-NFDI/pynxtools-mpes/) | pynxtools reader plugin for multi-dimensional photoelectron spectroscopy (MPES) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-mpes/) | [📦](https://pypi.org/project/pynxtools-mpes/) |
+| [pynxtools-raman](https://github.com/FAIRmat-NFDI/pynxtools-raman/) | pynxtools reader plugin for Raman data. | [📚](https://fairmat-nfdi.github.io/pynxtools-raman/) | [📦](https://pypi.org/project/pynxtools-raman/) |
+| [pynxtools-spm](https://github.com/FAIRmat-NFDI/pynxtools-spm/) | pynxtools reader plugin for scanning probe microscopy (SPM) data. | [📚](https://fairmat-nfdi.github.io/pynxtools-spm/) | [📦](https://pypi.org/project/pynxtools-spm/) |
 | [pynxtools-xps](https://github.com/FAIRmat-NFDI/pynxtools-xps/) | pynxtools reader plugin for X-ray photoelectron spectroscopy (XPS) data from various vendors/sources. | [📚](https://fairmat-nfdi.github.io/pynxtools-xps/) | [📦](https://pypi.org/project/pynxtools-xps/) |
-| [pynxtools-xrd](https://github.com/FAIRmat-NFDI/pynxtools-xrd/) | pynxtools reader plugin for X-ray diffraction data. | | [📦](https://pypi.org/project/pynxtools-xrd/) |
+| [pynxtools-xrd](https://github.com/FAIRmat-NFDI/pynxtools-xrd/) | pynxtools reader plugin for X-ray diffraction data. | [📚](https://fairmat-nfdi.github.io/pynxtools-xrd/) | [📦](https://pypi.org/project/pynxtools-xrd/) |
 
 </details>
