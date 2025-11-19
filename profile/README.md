@@ -104,6 +104,7 @@ A collection of plugins for experimental data, including material processing and
 |-----------------|----------------------------------------------------------------------------------------|:----:| --- |
 | [nomad-materials-processing](https://github.com/FAIRmat-NFDI/nomad-material-processing) | A NOMAD plugin with base sections for material processing.                         |          [📚](https://fairmat-nfdi.github.io/nomad-material-processing/)     | [📦](https://pypi.org/project/nomad-material-processing/)
 | [nomad-measurements](https://github.com/FAIRmat-NFDI/nomad-measurements) | A NOMAD plugin containing base sections for measurements.            | [📚](https://fairmat-nfdi.github.io/nomad-measurements/)              | [📦](https://pypi.org/project/nomad-measurements/)
+| [nomad-camels-plugin](https://github.com/FAIRmat-NFDI/nomad-camels-plugin) | A NOMAD plugin for parsing, visualizing and searching NOMAD CAMELS data.            | [📚](https://fairmat-nfdi.github.io/nomad-camels-plugin/)              | 
 
 
 ## NeXus-Related Resources
