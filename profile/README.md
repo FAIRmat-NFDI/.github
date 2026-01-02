@@ -59,7 +59,7 @@ A collection of plugins for computational data. These plugins contain schemas an
 
 | Repository | Description | Docs | PyPI |
 | ---------- | ----------- | ---- | ---- |
-| [nomad-simulations](https://github.com/nomad-coe/nomad-simulations) | A NOMAD plugin containing base sections for simulations.  | [📚](https://nomad-coe.github.io/nomad-simulations/) | [📦](https://pypi.org/project/nomad-simulations/)
+| [nomad-simulations](https://github.com/fairmat-nfdi/nomad-simulations) | A NOMAD plugin containing base sections for simulations.  | [📚](https://fairmat-nfdi.github.io/nomad-simulations/) | [📦](https://pypi.org/project/nomad-simulations/)
 | [nomad-schema-plugin-simulation-workflow](https://github.com/nomad-coe/nomad-schema-plugin-simulation-workflow) | A collection of schemas for various types of simulation workflows. |  |
 
 <details>
