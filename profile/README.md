@@ -43,7 +43,7 @@ This repository hosts all official documentation for the NOMAD platform — incl
 
 ## Templates
 
-These are template repositories that you can use as a base when cusomizing your own NOMAD installation for what you need in your institute or lab.
+These are template repositories that you can use as a base when customizing your own NOMAD installation for what you need in your institute or lab.
 
 | Repository | Description | Docs |
 | ---------- | ----------- | :--: |
