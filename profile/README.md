@@ -17,6 +17,19 @@ We develop software to support the FAIR principles in the field of condensed-mat
 
 </center>
 
+# How to contribute
+
+We welcome contributions to FAIRmat-NFDI repositories. For most contributions, please use the standard GitHub workflow:
+
+1. Fork the repository you want to contribute to.
+2. Create a branch in your fork.
+3. Make your changes and include tests or documentation updates where appropriate.
+4. Open a pull request against the FAIRmat-NFDI repository.
+
+This workflow keeps contributions open, reviewable, and easy to discuss. If you are unsure where a change belongs, please open an issue in the relevant repository or ask on the [NOMAD Discord](https://discord.gg/su9Vy2am9W).
+
+Direct write, maintain, or admin access to FAIRmat-NFDI repositories is reserved for active internal work and intensive collaborations where elevated permissions are needed. These cases are handled individually by the FAIRmat maintainers.
+
 # Repositories
 
 A collection of repositories that are part of the FAIRmat consortium.
